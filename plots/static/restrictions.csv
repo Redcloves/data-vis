@@ -1,0 +1,55 @@
+* The higher the Rank the higher the restrictions,,,
+* The higher the Score the lower the restrictions,,,
+,,,
+State,RANK RESTR,SCORE RESTR,Name
+AK,12,66.85,Alaska
+AL,14,63.39,Alabama
+AR,10,68.16,Arkansas
+AZ,45,30.98,Arizona
+CA,50,21.73,California
+CO,46,30.71,Colorado
+CT,39,34.88,Connecticut
+DC,43,33.93,District of Columbia
+DE,31,38.72,Delaware
+FL,11,67.86,Florida
+GA,13,66.79,Georgia
+HI,51,17.92,Hawaii
+IA,5,75.48,Iowa
+ID,2,81.4,Idaho
+IL,23,49.91,Illinois
+IN,15,62.38,Indiana
+KS,17,60.6,Kansas
+KY,37,35.77,Kentucky
+LA,25,47.02,Louisiana
+MA,49,24.88,Massachusetts
+MD,24,48.1,Maryland
+ME,48,29.35,Maine
+MI,30,39.02,Michigan
+MN,32,38.45,Minnesota
+MO,8,69.64,Missouri
+MS,22,57.32,Mississippi
+MT,28,41.67,Montana
+NC,33,38.33,North Carolina
+ND,9,69.52,North Dakota
+NE,21,57.59,Nebraska
+NH,26,44.94,New Hampshire
+NJ,47,29.85,New Jersey
+NM,34,37.71,New Mexico
+NV,20,57.92,Nevada
+NY,38,35.54,New York
+OH,16,61.96,Ohio
+OK,4,75.89,Oklahoma
+OR,44,32.92,Oregon
+PA,42,34.17,Pennsylvania
+RI,29,39.05,Rhode Island
+SC,19,59.08,South Carolina
+SD,1,83.93,South Dakota
+TN,18,60.42,Tennessee
+TX,35,37.68,Texas
+UT,3,80.09,Utah
+VA,40,34.82,Virginia
+VT,41,34.76,Vermont
+WA,36,37.53,Washington
+WI,6,70.71,Wisconsin
+WV,27,41.76,West Virginia
+WY,7,70.42,Wyoming

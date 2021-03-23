@@ -1,0 +1,45 @@
+{% load static %}
+<!--https://webdesign.tutsplus.com/tutorials/building-an-admin-dashboard-layout-with-css-and-a-touch-of-javascript&#45;&#45;cms-33964-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="http://cdn.pydata.org/bokeh/release/bokeh-2.3.0.min.css"/>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+<!--    <link rel="stylesheet" type="text/css" href="http://cdn.pydata.org/bokeh/release/bokeh-widgets-2.3.0.min.css"/>-->
+    <title>Visualisation</title>
+</head>
+<body class=" header">
+
+        <div class="main">
+            <h1>Plots</h1>
+            <div class="text">
+
+                Taking the data of Covid-19 diagnoses, elective surgeries, and rankings of U.S. states based
+                on how many restrictions were imposed to prevent the spread of the disease, we uncover weekly
+                trends that indicated the comfort level of patients as they chose to return to - or avoid -
+                medical procedures. Data from 04/01/2019 to 07/08/2020.
+            </div>
+
+
+            {{map_div| safe}}
+            <div class="note">
+                * The higher the Rank the higher the restrictions, the higher the Score the lower the restrictions
+            </div>
+            <form method = "GET" class="form">
+                {{ form }}
+            </form>
+            <h3>{{ name }} </h3>
+
+            {{ plot_div | safe }}
+        </div>
+
+
+</body>
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-2.3.0.min.js"></script>
+<!--    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-widgets-2.3.0.min.js"></script>-->
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-tables-2.3.0.min.js"></script>
+<!--    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-api-2.3.0.min.js"></script>-->
+    {{script | safe}}
+
+</html>

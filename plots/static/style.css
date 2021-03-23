@@ -1,0 +1,26 @@
+.header {
+  background: #242e42;
+}
+
+.main {
+  position: absolute;
+  left: 180px;
+  width: calc(100% - var(--header-width));
+  min-height: 100vh;
+  padding: 60px;
+  background: #f0f1f6;
+  border-radius: 25px;
+}
+
+.form {
+    margin: 20px;
+}
+
+.text{
+  width : 800px;
+  txtColor: #171616;
+}
+
+.note{
+   font-size: 14px;
+}
