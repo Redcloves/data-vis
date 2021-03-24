@@ -22,9 +22,6 @@ def total_weekly_patients(state):
     x = states_data[state].groupby(pd.to_datetime(time, unit='D')).sum()
     return x
 
-# def total_state_patients(state):   # correct
-#     return sum(states_data[state]['PATIENTS'])
-
 def surgery_patients(state, surgery):
     patients = states_data[state]['ELECT_PX'].values == surgery
     return sum(states_data[state][patients]['PATIENTS'])
@@ -71,15 +68,3 @@ def plot_weekly(state):
     d = ( data_plot + table )
     fig = hv.render(d)
     return fig
-
-# state = 'CA'
-# time = pd.to_datetime(states_data[state]['WEEK'])
-# x = states_data[state].groupby(time).sum()
-# pd.to_datetime(x.index.values, unit='D')
-
-# https://www.youtube.com/watch?v=YlOVR_1q4Ak
-# http://docs.bokeh.org/en/0.11.0/docs/user_guide/embed.html#userguide-embed
-# http://holoviews.org/user_guide/Deploying_Bokeh_Apps.html
-# print(pd.to_datetime(total_weekly_patients('CA').index.values, unit='D'))
-# print(total_weekly_patients('CA').index.values)
-
