@@ -1,5 +1,7 @@
 # Elective surgeries data visualisation during COVID-19
 
+[YouTube link](https://youtu.be/FJacmgyeRJo)
+
 Taking the data of Covid-19 diagnoses, elective surgeries, and rankings of U.S. states based
 on how many restrictions were imposed to prevent the spread of the disease, we uncover weekly
 trends that indicated the comfort level of patients as they chose to return to - or avoid -
